@@ -17,7 +17,7 @@ stages {
 stage('Build') {
 steps {
 // Get some code from a GitHub repository
-git 'https://github.com/ygautam245/AdvancejavaAss5.git'
+git 'https://github.com/ygautam245/AdvancejavaAss5/tree/master/LibraryManagementSystem'
 bat "${mvnCmd} clean package"
 }
 
